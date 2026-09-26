@@ -1,22 +1,117 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Bayngoli Shop</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: white;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+        }
+
+        .product {
+            max-width: 350px;
+            margin: 30px auto;
+            background: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .buy-button {
+            background: #111;
+            color: white;
+            border: none;
+            padding: 14px 30px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .buy-button:hover {
+            background: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            background: #111;
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
 
-    <h1>Welcome to Bayngoli Shop</h1>
+    <header>
+        <h1>Bayngoli Shop</h1>
+        <p>Quality Products at Affordable Prices</p>
+    </header>
 
-    <p>Discover quality products at affordable prices.</p>
+    <section class="hero">
+        <h2>Welcome to Bayngoli Shop</h2>
+        <p>Discover our latest products.</p>
+    </section>
 
-    <h2>Featured Product</h2>
+    <section class="product">
 
-    <h3>Premium T-Shirt</h3>
-    <p>Price: ৳500</p>
+        <img
+            src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+            alt="Premium T-Shirt"
+        >
 
-    <button>Buy Now</button>
+        <h2>Premium T-Shirt</h2>
+
+        <p>Comfortable and stylish T-shirt for everyday use.</p>
+
+        <p class="price">৳500</p>
+
+        <button class="buy-button">
+            Buy Now
+        </button>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Bayngoli Shop. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
